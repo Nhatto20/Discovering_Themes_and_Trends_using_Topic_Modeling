@@ -1,3 +1,10 @@
+'''
+This is the core of the project to "Discovering" articles' topics
+
+use this to train an LDA model for the product
+
+'''
+
 import pandas as pd
 
 import nltk
