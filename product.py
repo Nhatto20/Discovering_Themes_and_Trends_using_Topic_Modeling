@@ -1,3 +1,16 @@
+'''
+this is the final product of the project, with the core is the results taken after the training process with the datasets taken from AXVIR
+currently the model using for the final product is an LDA model with the number of topic is 80
+
+the Lda Model used to get the information can be change but one will need to single-handedly train and create lookup tables (topicid_to_ids : for Article Search, topic_trend_day : for Trend Analysis).
+
+
+the product has 3 function:
+
+Showing trends within a given timeframe
+
+
+'''
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
